@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple By Region</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <h1 class="main-title">TEMPLE BY REGION</h1>
+        <h2 class="subtitle">ค้นหาข้อมูลวัดตามภูมิภาค</h2>
+
+        <div id="temple" class="templeall">
+            <!-- Temple slider container -->
+            <div class="temple-slider">
+                <div class="temple-track">
+                    <!-- Northern region temple -->
+                    <div id="watthai" class="wat">
+                        <div class="image-container">
+                            <img id="imagewatthai" class="imagewatthai2"
+                                src="https://www.watportal.com/th/file/get/file/20181215b6aa7b2ee876a6e75df458f5a92a359c151543.jpg"
+                                alt="วัดภาคเหนือ">
+                            <div class="region-name">ภาคเหนือ</div>
+                        </div>
+                    </div>
+
+                    <!-- Central region temple -->
+                    <div id="watthai" class="wat">
+                        <div class="image-container">
+                            <img id="imagewatthai" class="imagewatthai2"
+                                src="https://www.watportal.com/th/file/get/file/201812120cc175b9c0f1b6a831c399e269772661170737.jpg"
+                                alt="วัดภาคกลาง">
+                            <div class="region-name">ภาคกลาง</div>
+                        </div>
+                    </div>
+
+                    <!-- Northeastern region temple -->
+                    <div id="watthai" class="wat">
+                        <div class="image-container">
+                            <img id="imagewatthai" class="imagewatthai2"
+                                src="https://www.watportal.com/th/file/get/file/20181220ee139250bac4e34d35e07abe42cd1e6a092928.jpg"
+                                alt="วัดภาคตะวันออกเฉียงเหนือ">
+                            <div class="region-name">ภาคตะวันออก<br>เฉียงเหนือ</div>
+                        </div>
+                    </div>
+
+                    <!-- Eastern region temple -->
+                    <div id="watthai" class="wat">
+                        <div class="image-container">
+                            <img id="imagewatthai" class="imagewatthai2"
+                                src="https://www.watportal.com/th/file/get/file/20181220f9fcb65e1495b9f1619592bf50e2718e111649.jpg"
+                                alt="วัดภาคตะวันออก">
+                            <div class="region-name">ภาคตะวันออก</div>
+                        </div>
+                    </div>
+
+                    <!-- Western region temple -->
+                    <div id="watthai" class="wat">
+                        <div class="image-container">
+                            <img id="imagewatthai" class="imagewatthai2"
+                                src="https://www.watportal.com/th/file/get/file/20181220f4faf995405652f22f99a792f0ec8944155346.jpg"
+                                alt="วัดภาคตะวันตก">
+                            <div class="region-name">ภาคตะวันตก</div>
+                        </div>
+                    </div>
+
+                    <!-- Southern region temple -->
+                    <div id="watthai" class="wat">
+                        <div class="image-container">
+                            <img id="imagewatthai" class="imagewatthai2"
+                                src="https://www.watportal.com/th/file/get/type/thumbnail/file/2018122034463b84e373dffc23f8d5566d15c168155750.jpg"
+                                alt="วัดภาคใต้">
+                            <div class="region-name">ภาคใต้</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation dots -->
+            <div class="navigation-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+            <!-- Controls -->
+            <div class="temple-controls">
+                <div class="column-controls">
+                    <button class="column-btn" data-columns="2">2 คอลัมภ์</button>
+                    <button class="column-btn active" data-columns="3">3 คอลัมภ์</button>
+                    <button class="column-btn" data-columns="4">4 คอลัมภ์</button>
+                </div>
+                <div class="autoplay-control">
+                    <label>
+                        <input type="checkbox" id="autoplay-toggle" checked>
+                        <span>Auto Play</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
